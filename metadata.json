@@ -1,0 +1,6 @@
+{
+  "name": "Tradehub-Ng",
+  "description": "A commerce platform for Nigerian business owners to build customizable storefronts, share direct shopping links, automatically split payments (90/10) via Paystack subaccounts, and resolve order disputes via built-in buyer protection.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

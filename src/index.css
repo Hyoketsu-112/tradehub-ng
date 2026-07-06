@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300..900&family=JetBrains+Mono:wght@300..800&family=Space+Grotesk:wght@300..700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-grotesk: "Space Grotesk", sans-serif;
+  --font-fraunces: "Fraunces", serif;
+  
+  --color-editorial-bg: #FFFFFF;
+  --color-editorial-text: #0E1A12;
+  --color-editorial-accent: #008751;
+  --color-editorial-beige: #EDF7F1;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #0E1A12;
+  font-family: var(--font-sans);
+}
